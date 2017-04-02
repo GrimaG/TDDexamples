@@ -1,0 +1,8 @@
+br\ifes\gustavo\calculadora\app\App.class
+br\ifes\gustavo\calculadora\model\Calculadora.class
+br\ifes\gustavo\calculadora\model\Subtracao.class
+br\ifes\gustavo\calculadora\control\ElevaExpressao.class
+br\ifes\gustavo\calculadora\control\Expressao.class
+br\ifes\gustavo\calculadora\model\Adicao.class
+br\ifes\gustavo\calculadora\model\Divisao.class
+br\ifes\gustavo\calculadora\model\Multiplicacao.class

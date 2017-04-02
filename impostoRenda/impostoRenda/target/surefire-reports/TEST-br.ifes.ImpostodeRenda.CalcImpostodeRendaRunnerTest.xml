@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="30" failures="0" name="br.ifes.impostoRenda.CalcImpostodeRendaRunnerTest" time="0.013" errors="0" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_77\jre\bin"/>
+    <property name="java.vm.version" value="25.77-b03"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\Gustavo\Documents\GitHub\impostoRenda"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="BR"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\Gustavo\Documents\GitHub\impostoRenda"/>
+    <property name="java.runtime.version" value="1.8.0_77-b03"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_77\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\LETICI~1\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 8.1"/>
+    <property name="classworlds.conf" value="C:\Users\Gustavo\workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf2688783474392083899.tmp"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_77\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jdk1.8.0_77/jre/bin/server;C:/Program Files/Java/jdk1.8.0_77/jre/bin;C:/Program Files/Java/jdk1.8.0_77/jre/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\apache-maven-3.3.9\bin;C:\Program Files\Java\jdk1.8.0_77\bin;C:\Program Files\Git\cmd;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\Gustavo\Desktop;;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="6.3"/>
+    <property name="user.home" value="C:\Users\Gustavo"/>
+    <property name="user.timezone" value="America/Sao_Paulo"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="Gustavo"/>
+    <property name="java.class.path" value="/C:/Users/Gustavo/eclipse/jee-neon/eclipse/../../../.p2/pool/plugins/org.eclipse.m2e.maven.runtime_1.7.0.20160603-1931/jars/plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_77\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B test"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="pt"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_77"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_77\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_77\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_77\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_77\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_77\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_77\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_77\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_77\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_77\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Users\Gustavo\Documents\GitHub\impostoRenda\EMBEDDED"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="| 1900.00 | 0.00 | 1903.98 | 0.00 | 0.0 |" name="Given Eu tenho um salario" time="0.002"/>
+  <testcase classname="| 1900.00 | 0.00 | 1903.98 | 0.00 | 0.0 |" name="When Eu quero calcular o imposto de renda do salario \&quot;1900.00\&quot;" time="0"/>
+  <testcase classname="| 1900.00 | 0.00 | 1903.98 | 0.00 | 0.0 |" name="And Valor minimo \&quot;0.00\&quot; e maximo \&quot;1903.98\&quot;" time="0"/>
+  <testcase classname="| 1900.00 | 0.00 | 1903.98 | 0.00 | 0.0 |" name="Then Eu tenho o valor da aliquota \&quot;0.00\&quot;" time="0"/>
+  <testcase classname="| 1900.00 | 0.00 | 1903.98 | 0.00 | 0.0 |" name="And Eu tenho o valor \&quot;0.0\&quot; do imposto de renda" time="0"/>
+  <testcase classname="| 1900.00 | 0.00 | 1903.98 | 0.00 | 0.0 |" name="| 1900.00 | 0.00 | 1903.98 | 0.00 | 0.0 |" time="0"/>
+  <testcase classname="| 2000.00 | 1903.99 | 2826.65 | 7.5 | 150.0 |" name="Given Eu tenho um salario" time="0"/>
+  <testcase classname="| 2000.00 | 1903.99 | 2826.65 | 7.5 | 150.0 |" name="When Eu quero calcular o imposto de renda do salario \&quot;2000.00\&quot;" time="0.001"/>
+  <testcase classname="| 2000.00 | 1903.99 | 2826.65 | 7.5 | 150.0 |" name="And Valor minimo \&quot;1903.99\&quot; e maximo \&quot;2826.65\&quot;" time="0"/>
+  <testcase classname="| 2000.00 | 1903.99 | 2826.65 | 7.5 | 150.0 |" name="Then Eu tenho o valor da aliquota \&quot;7.5\&quot;" time="0"/>
+  <testcase classname="| 2000.00 | 1903.99 | 2826.65 | 7.5 | 150.0 |" name="And Eu tenho o valor \&quot;150.0\&quot; do imposto de renda" time="0"/>
+  <testcase classname="| 2000.00 | 1903.99 | 2826.65 | 7.5 | 150.0 |" name="| 2000.00 | 1903.99 | 2826.65 | 7.5 | 150.0 |" time="0"/>
+  <testcase classname="| 3000.00 | 2826.66 | 3751.05 | 15 | 450.0 |" name="Given Eu tenho um salario" time="0"/>
+  <testcase classname="| 3000.00 | 2826.66 | 3751.05 | 15 | 450.0 |" name="When Eu quero calcular o imposto de renda do salario \&quot;3000.00\&quot;" time="0"/>
+  <testcase classname="| 3000.00 | 2826.66 | 3751.05 | 15 | 450.0 |" name="And Valor minimo \&quot;2826.66\&quot; e maximo \&quot;3751.05\&quot;" time="0.001"/>
+  <testcase classname="| 3000.00 | 2826.66 | 3751.05 | 15 | 450.0 |" name="Then Eu tenho o valor da aliquota \&quot;15\&quot;" time="0"/>
+  <testcase classname="| 3000.00 | 2826.66 | 3751.05 | 15 | 450.0 |" name="And Eu tenho o valor \&quot;450.0\&quot; do imposto de renda" time="0"/>
+  <testcase classname="| 3000.00 | 2826.66 | 3751.05 | 15 | 450.0 |" name="| 3000.00 | 2826.66 | 3751.05 | 15 | 450.0 |" time="0.001"/>
+  <testcase classname="| 4000.00 | 3751.06 | 4664.68 | 22.5 | 900.0 |" name="Given Eu tenho um salario" time="0"/>
+  <testcase classname="| 4000.00 | 3751.06 | 4664.68 | 22.5 | 900.0 |" name="When Eu quero calcular o imposto de renda do salario \&quot;4000.00\&quot;" time="0"/>
+  <testcase classname="| 4000.00 | 3751.06 | 4664.68 | 22.5 | 900.0 |" name="And Valor minimo \&quot;3751.06\&quot; e maximo \&quot;4664.68\&quot;" time="0"/>
+  <testcase classname="| 4000.00 | 3751.06 | 4664.68 | 22.5 | 900.0 |" name="Then Eu tenho o valor da aliquota \&quot;22.5\&quot;" time="0.007"/>
+  <testcase classname="| 4000.00 | 3751.06 | 4664.68 | 22.5 | 900.0 |" name="And Eu tenho o valor \&quot;900.0\&quot; do imposto de renda" time="0"/>
+  <testcase classname="| 4000.00 | 3751.06 | 4664.68 | 22.5 | 900.0 |" name="| 4000.00 | 3751.06 | 4664.68 | 22.5 | 900.0 |" time="0"/>
+  <testcase classname="| 5000.00 | 4664.69 | 999999.00 | 27.5 | 1375.0 |" name="Given Eu tenho um salario" time="0"/>
+  <testcase classname="| 5000.00 | 4664.69 | 999999.00 | 27.5 | 1375.0 |" name="When Eu quero calcular o imposto de renda do salario \&quot;5000.00\&quot;" time="0"/>
+  <testcase classname="| 5000.00 | 4664.69 | 999999.00 | 27.5 | 1375.0 |" name="And Valor minimo \&quot;4664.69\&quot; e maximo \&quot;999999.00\&quot;" time="0.001"/>
+  <testcase classname="| 5000.00 | 4664.69 | 999999.00 | 27.5 | 1375.0 |" name="Then Eu tenho o valor da aliquota \&quot;27.5\&quot;" time="0"/>
+  <testcase classname="| 5000.00 | 4664.69 | 999999.00 | 27.5 | 1375.0 |" name="And Eu tenho o valor \&quot;1375.0\&quot; do imposto de renda" time="0"/>
+  <testcase classname="| 5000.00 | 4664.69 | 999999.00 | 27.5 | 1375.0 |" name="| 5000.00 | 4664.69 | 999999.00 | 27.5 | 1375.0 |" time="0"/>
+</testsuite>
